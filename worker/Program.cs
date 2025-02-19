@@ -16,7 +16,6 @@ namespace Worker
         {
             try
             {
-                // 환경 변수에서 값 가져오기
                 string pgHost = Environment.GetEnvironmentVariable("PG_HOST");
                 string pgUser = Environment.GetEnvironmentVariable("PG_USERNAME");
                 string pgPassword = Environment.GetEnvironmentVariable("PG_PASSWORD");
